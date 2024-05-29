@@ -1,0 +1,45 @@
+.col-md-4 {
+  border: 1px solid black;
+  border-radius: 5px;
+  /* height: fit-content !important; */
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  font-size: small;
+  margin-top: 20px;
+}
+
+#gradient-background {
+  background: linear-gradient(
+    60deg,
+    #ff8c46,
+    #cc8521,
+    #4417e8,
+    #a2b8b9,
+    #5036e7
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
